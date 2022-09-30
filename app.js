@@ -1,5 +1,5 @@
 function screen(){
-    const controller = new ScrollMagic.controller();
+    const controller = new ScrollMagic.Controller();
 
     new ScrollMagic.Scene({
         duration:500,
@@ -12,3 +12,6 @@ function screen(){
 }
 
 screen()
+
+
+
