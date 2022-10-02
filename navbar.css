@@ -50,6 +50,12 @@ img{
     color: gray;
     font-family: Calibri;
  }
+
+ #btn button:hover{
+  color: #136aec;
+  background-color: rgb(216, 208, 208);
+ }
+
  .ls button{
     border: 0;
     font-size: 16px;
@@ -58,6 +64,12 @@ img{
     font-family: Calibri;
     
  }
+
+ .ls button:hover{
+  color: #136aec;
+  background-color: rgb(216, 208, 208);
+ }
+ 
  #GS:hover{
   background-color:#5759ac  
  }
