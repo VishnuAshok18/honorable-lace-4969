@@ -7,6 +7,9 @@ body{
 img{
     width:  80%;
 }
+button{
+  cursor: pointer;
+}
 #navbar{
     width: 100%;
     border: 0px solid red;
@@ -50,6 +53,12 @@ img{
     color: gray;
     font-family: Calibri;
  }
+
+ #btn button:hover{
+  color: #136aec;
+  background-color: rgb(216, 208, 208);
+ }
+
  .ls button{
     border: 0;
     font-size: 16px;
@@ -58,6 +67,12 @@ img{
     font-family: Calibri;
     
  }
+
+ .ls button:hover{
+  color: #136aec;
+  background-color: rgb(216, 208, 208);
+ }
+ 
  #GS:hover{
   background-color:#5759ac  
  }
@@ -131,7 +146,7 @@ img{
     border-radius: 5%;
     width: 100%;
     height: auto;
-
+    cursor: pointer;
  }
 
  #tinyimg{
@@ -143,17 +158,52 @@ img{
  input[type=checkbox] {
     width: 20px;
     height: 20px;
-    accent-color: red;
-    background: rgba(40,40,40,0.2);
-    color:black;
+    accent-color: #d64aab ;
+    color: #0f1048;
+    
     margin-top: 10px;
     margin-left: 15px;
-    border: 1px solid wheat;
-    position: relative;
+    cursor: pointer;
+    
     left: -5px;
     top: -5px;
     
  }  
+ #cbox-child2>input[type=checkbox]{
+  accent-color: greenyellow;
+  color: #0f1048;
+  
+}  
+#cbox-child3>input[type=checkbox]{
+  accent-color: #d64aab ;
+ 
+}  
+#cbox-child4>input[type=checkbox]{
+  accent-color: aqua;
+ 
+}  
+#cbox-child5>input[type=checkbox]{
+  accent-color:rgb(241, 187, 8) ;
+ 
+}  
+#cbox-child6>input[type=checkbox]{
+  accent-color:blue ;
+ 
+}  
+#cbox-child7>input[type=checkbox]{
+  accent-color:rgb(241, 187, 8) ;
+ 
+}  
+#cbox-child8>input[type=checkbox]{
+  accent-color:aqua ;
+ 
+}  
+#cbox-child9>input[type=checkbox]{
+  accent-color:blue ;
+ 
+}  
+
+
 
  #cbox-child1
  {
@@ -166,7 +216,8 @@ img{
  }
 
  #cbox>div:nth-child(1):hover{
-  border: 1px solid rgb(238, 13, 51) ;
+  border: 1px solid #d64aab  ;
+  
  }
 
  #cbox>div:nth-child(2):hover{
@@ -174,15 +225,15 @@ img{
  }
 
  #cbox>div:nth-child(3):hover{
-  border: 1px solid rgb(238, 13, 51) ;
+  border: 1px solid #d64aab  ;
  }
 
  #cbox>div:nth-child(4):hover{
-  border: 1px solid rgb(241, 187, 8) ;
+  border: 1px solid  aqua ;
  }
 
  #cbox>div:nth-child(5):hover{
-  border: 1px solid aqua ;
+  border: 1px solid rgb(241, 187, 8);
  }
 
  #cbox>div:nth-child(6):hover{
@@ -689,7 +740,7 @@ color : white ;
   text-align: center;
   justify-content: center;
   align-items: center; 
-  
+  cursor: pointer;
  }
  #seven>div>img{
   width: 20%;
@@ -1628,6 +1679,7 @@ margin-bottom: 10px;
       border: 0px solid red;
       margin: auto;
       margin-left: 20px;
+      cursor: pointer;
     }
     #lists>#lists-1>p{
       font-size: 12px;
@@ -1682,6 +1734,7 @@ margin-bottom: 10px;
       border: 0px solid red;
       display: flex;
       justify-content: space-between;
+      cursor: pointer;
     }
     #footer>div:nth-child(2) *:hover{
       color: #136aec;
